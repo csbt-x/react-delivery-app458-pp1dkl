@@ -1,0 +1,80 @@
+.dish-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dish-container {
+  max-width: 600px;
+}
+
+.dish-card {
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  width: 300px;
+  cursor: pointer;
+}
+
+.dish-img-cont {
+}
+
+.dish-img {
+  max-width: 100px;
+  height: auto;
+}
+
+.dish-info-cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  background: #fff;
+  border: 1px solid #f0f1f5;
+  color: #6e6e6e;
+  height: 56px;
+}
+.form-control {
+  display: block;
+  width: 12rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #f0f1f5;
+  border-radius: 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input:focus, textarea:focus {
+  outline: none !important;
+  border: 0.01rem solid #6610f2;
+}
+
+.addButton {
+  border-radius: 0.75rem;
+  width: 150px;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
